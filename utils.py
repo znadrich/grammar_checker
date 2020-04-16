@@ -1,3 +1,5 @@
+import numpy as np
+
 def verb_filter(pos):
     """
     Filters parts-of-speech tuples (words, pos) from `nltk.pos_tag_sents` to only
@@ -60,3 +62,19 @@ def trigrams_words(s):
             phrase = ' '.join(phrase)
             words.append(phrase)
     return words
+
+def flag_phrases(pr, words, thresh=.02):
+    """
+    Flag phrases that have a low probability of occuring, according to a Markov chain
+    
+    Args:
+        pr (list): Phrase predictions
+        words (list): Phrases
+        thresh (float, optional): Flagging threshold. Defaults to .02.
+    
+    Returns:
+        [type]: [description]
+    """
+    lwst = np.where((np.array(pr) < thresh) & (np.array(pr) > 0))
+    rt_words = [words[l] for l in lwst[0]]
+    return rt_words
