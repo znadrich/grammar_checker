@@ -1,0 +1,20 @@
+{
+    "sentences": [
+        {
+			"bad": "I would like get some kind of explanation and receive my money back .",
+            "good": "I would like to get some kind of explanation, in addition to receiving my money back ."
+        },
+        {
+			"bad": "Please go and search word.",
+            "good": "Please go online and search for the word."
+        },
+        {
+			"bad": "You just look up online.",
+            "good": "You could just look that up online."
+        },
+        {
+			"bad": "He gave cat food.",
+            "good": "He gave the cat food."
+        }
+    ]
+}
