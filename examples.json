@@ -1,8 +1,8 @@
 {
     "sentences": [
         {
-			"bad": "I would like get some kind of explanation and receive my money back .",
-            "good": "I would like to get some kind of explanation, in addition to receiving my money back ."
+			"bad": "I would like get some kind of explanation and receive my money back.",
+            "good": "I would like to get some kind of explanation, in addition to receiving my money back."
         },
         {
 			"bad": "Please go and search word.",
@@ -15,6 +15,18 @@
         {
 			"bad": "He gave cat food.",
             "good": "He gave the cat food."
+        },
+        {
+            "bad": "She got married and had two children.",
+            "good": "She got married and had two children."
+        },
+        {
+            "bad": "The musical should started at 19:30, but it started at 20:15.",
+            "good": "The musical should have started at 19:30, but it started at 20:15."
+        },
+        {
+           "bad": "The attraction is 7:30 to 11:30 p.m. every night through May 10.",
+           "good": "The attraction is open from 7:30 to 11:30 p.m. every night through May 10."
         }
     ]
 }
