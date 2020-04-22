@@ -1,2 +1,5 @@
 settings.json
 *.pyc
+*.tmp
+*.docx
+*.pptx
